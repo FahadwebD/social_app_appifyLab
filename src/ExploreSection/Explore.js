@@ -2,9 +2,10 @@ import React from 'react';
 
 const Explore = () => {
     return (
-        <div>
+        <div class="bg-white">
+            <div>
             <aside class="w-64 p-5" aria-label="Sidebar">
-   <div class="overflow-y-auto py-4 px-3  rounded ">
+   <div class="py-4 px-3  rounded ">
       <ul class="space-y-2">
          <li>
             
@@ -51,6 +52,7 @@ const Explore = () => {
       </ul>
    </div>
 </aside>
+            </div>
         </div>
     );
 };
