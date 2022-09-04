@@ -5,8 +5,8 @@ const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
     return (
-        <>
-        <div className='hidden md:block'>
+        <div className='sticky top-0 z-50'>
+        <div className='hidden md:block '>
              <nav className=" flex justify-between px-20 py-5 items-center bg-slate-800">
 <img className='object-cover h-10 w-40' src="https://i.ibb.co/h1HVXrf/logo.png" alt="" srcset="" />
   <div className="flex items-center bg-white rounded-3xl" >
@@ -148,7 +148,7 @@ const Navbar = () => {
           )}
         </Transition>
      
-      </>
+      </div>
     );
 };
 

@@ -3,7 +3,7 @@ import React from 'react';
 const MightLikePeople = () => {
     return (
         <div>
-             <div className='mt-3'>
+             <div className=''>
             <div  class=" p-1 w-full text-center bg-white rounded-lg border shadow-md ">
     <h5 class= " p-2 mb-2 text-xl font-bold text-black text-left">You Might Like</h5>
     <hr className='w-30 p-3 m-3' />

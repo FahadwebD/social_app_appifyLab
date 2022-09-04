@@ -5,7 +5,7 @@ import SuggestedPeople from './SuggestedPeople';
 
 const ExploreSection = () => {
     return (
-        <div>
+        <div className='sticky top-16'>
             <Explore ></Explore>
             <Download></Download>
             <SuggestedPeople></SuggestedPeople>

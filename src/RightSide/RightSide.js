@@ -4,7 +4,7 @@ import YourFriends from './YourFriends';
 
 const RightSide = () => {
     return (
-        <div>
+        <div className='sticky top-16'>
             <MightLikePeople>
             </MightLikePeople>
             <YourFriends></YourFriends>
