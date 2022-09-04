@@ -2,18 +2,10 @@ import React from 'react';
 import angry from '../../assests/images/reaction/angry.svg'
 import like from '../../assests/images/reaction/like.svg'
 import love from '../../assests/images/reaction/love.svg'
-
-
-
-
-const JustPostCard = () => {
+const PollPost = () => {
     return (
-       
-
-<div>
-
-
-<div className="shadow bg-white dark:bg-dark-second dark:text-dark-txt mt-4 rounded-lg">
+        <div>
+           <div className="shadow bg-white dark:bg-dark-second dark:text-dark-txt mt-4 rounded-lg">
     
     <div className="flex items-center justify-between px-4 py-2">
         <div className="flex space-x-2 items-center">
@@ -38,7 +30,7 @@ const JustPostCard = () => {
     </div>
  
     <div className="py-2">
-        <img src="https://scontent.fzyl1-1.fna.fbcdn.net/v/t39.30808-6/284925924_2138000919694101_3014536371273069646_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pm0yU5C9rIQAX9YjQrh&_nc_oc=AQm2gvMnY44_qf1OTLM4Z_WdCK39gNPvS1Hd4a8HSN4Tc30DajbOwbHJfKsvsdBxhsg&_nc_ht=scontent.fzyl1-1.fna&oh=00_AT_gSQMZSxeA-8lmziB_Gm8sh7gEqFC8xLaqpj4bQdD5pw&oe=6317BAAE" alt="Post image"/>
+        
     </div>
  
     <div className="px-4 py-2">
@@ -172,11 +164,9 @@ const JustPostCard = () => {
         </div>
     </div>
 
-</div>
-
-    
+</div> 
         </div>
     );
 };
 
-export default JustPostCard;
+export default PollPost;
