@@ -12,7 +12,7 @@ const Layout = () => {
             <div class="relative grid md:grid-cols-2 lg:grid-cols-4  gap-4 ">
   <div className='hidden md:block ' ><ExploreSection></ExploreSection></div>
   <div class=" col-span-2  "><MiddleSection></MiddleSection></div>
-  <div ><RightSide></RightSide></div>
+  <div className='hidden md:block '><RightSide></RightSide></div>
   
 </div>
         </div>
